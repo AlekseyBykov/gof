@@ -8,7 +8,7 @@ package alekseybykov.portfolio.patterns.gof.singleton.threadunsafe;
  * @version 1.0
  * @since   2019-09-28
  */
-public class Singleton {
+final class Singleton {
 
     private static Singleton singleton;
 
