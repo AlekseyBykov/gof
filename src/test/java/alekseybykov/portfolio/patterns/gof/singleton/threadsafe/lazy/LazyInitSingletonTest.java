@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @version 1.0
  * @since   2019-09-29
  */
-@DisplayName("Tests for singleton implementation with lazy loading")
+@DisplayName("Tests for Singleton Pattern implementation with lazy loading")
 class LazyInitSingletonTest {
 
     @Test
