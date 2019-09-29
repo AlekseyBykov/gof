@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class EagerInitSingletonTest {
 
     @Test
-    @DisplayName("Call method without singleton instantiation")
+    @DisplayName("Call method with singleton instantiation")
     void testEagerInitialization() {
         EagerInitSingleton.checkForEagerInit();
         assertEquals(EagerInitSingleton.numberOfInstances, 1);

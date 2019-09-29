@@ -23,6 +23,6 @@ final class EagerInitSingleton {
     }
 
     static void checkForEagerInit() {
-        System.out.println("Singleton instance is not created");
+        System.out.println("Singleton instance is created");
     }
 }
