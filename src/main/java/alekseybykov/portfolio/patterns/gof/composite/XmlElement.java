@@ -10,30 +10,18 @@ import java.util.Set;
  * @author  aleksey.n.bykov@gmail.com
  * @version 2019-11-03
  */
-public class XmlElement implements Comparable<XmlElement> {
+public class XmlElement {
 
     private String name;
-    private int level;
 
     private Set<XmlElement> elements = new LinkedHashSet<>();
 
-    public XmlElement(String name, int level) {
+    public XmlElement(String name) {
         this.name = name;
-        this.level = level;
     }
 
     public void addElement(XmlElement xmlElement) {
         elements.add(xmlElement);
-    }
-
-    @Override
-    public int compareTo(XmlElement element) {
-        if (this.level > element.level) {
-            return 1;
-        } else if (this.level < element.level) {
-            return -1;
-        }
-        return 0;
     }
 
     public Set<XmlElement> getElements() {

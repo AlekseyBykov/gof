@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Iterator;
 import java.util.Set;
-import java.util.TreeSet;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -23,30 +22,23 @@ class CompositeTest {
     @DisplayName("Create hierarchy and traversing it")
     void testCreateAndTraverseHierarchy() {
 
-        XmlElement root = new XmlElement("book", 0);
+        XmlElement root = new XmlElement("book");
 
-        XmlElement isbn = new XmlElement("isbn", 1);
-        XmlElement author = new XmlElement("author", 1);
-        XmlElement price = new XmlElement("author", 1);
+        XmlElement isbn = new XmlElement("isbn");
+        XmlElement author = new XmlElement("author");
+        XmlElement price = new XmlElement("author");
 
-        XmlElement firstName = new XmlElement("firstName", 2);
-        XmlElement lastName = new XmlElement("lastName", 2);
-        XmlElement middleName = new XmlElement("middleName", 2);
-
-        author.addElement(firstName);
-        author.addElement(lastName);
-        author.addElement(middleName);
+        XmlElement firstName = new XmlElement("firstName");
+        XmlElement lastName = new XmlElement("lastName");
+        XmlElement middleName = new XmlElement("middleName");
 
         root.addElement(isbn);
         root.addElement(author);
         root.addElement(price);
 
-        Set<XmlElement> xmlDocument = new TreeSet<>();
-        xmlDocument.add(root);
-
-        Iterator<XmlElement> xmlIterator = xmlDocument.iterator();
-
-        assertEquals(root, xmlIterator.next());
+        author.addElement(firstName);
+        author.addElement(lastName);
+        author.addElement(middleName);
 
         Set<XmlElement> rootElements = root.getElements();
         Iterator<XmlElement> rootIterator = rootElements.iterator();
