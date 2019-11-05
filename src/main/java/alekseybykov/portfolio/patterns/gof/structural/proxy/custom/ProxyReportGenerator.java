@@ -1,7 +1,9 @@
 //
 // Feel free to use these solutions in your work.
 //
-package alekseybykov.portfolio.patterns.gof.structural.proxy;
+package alekseybykov.portfolio.patterns.gof.structural.proxy.custom;
+
+import alekseybykov.portfolio.patterns.gof.structural.proxy.PdfReportGenerator;
 
 import static java.lang.String.format;
 
