@@ -1,10 +1,9 @@
 //
 // Feel free to use these solutions in your work.
 //
-package alekseybykov.portfolio.patterns.gof.structural.proxy.custom;
+package alekseybykov.portfolio.patterns.gof.structural.proxy;
 
-import alekseybykov.portfolio.patterns.gof.structural.proxy.PdfReportGenerator;
-import alekseybykov.portfolio.patterns.gof.structural.proxy.ReportGenerator;
+import alekseybykov.portfolio.patterns.gof.structural.proxy.custom.ProxyReportGenerator;
 import alekseybykov.portfolio.patterns.gof.structural.proxy.embedded.ProxyInvocationHandler;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
