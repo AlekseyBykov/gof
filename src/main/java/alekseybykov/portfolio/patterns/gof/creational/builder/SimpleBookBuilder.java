@@ -1,11 +1,11 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.creational.builder;
 
 /**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-03
+ * Examples from JDK:
+ *
+ * {@link java.lang.StringBuilder#append(Object)
+ *  @link java.lang.StringBuffer#append(Object)
+ * }
  */
 public class SimpleBookBuilder implements BookBuilder {
 

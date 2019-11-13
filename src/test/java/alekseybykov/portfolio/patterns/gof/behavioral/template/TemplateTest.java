@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.behavioral.template;
 
 import org.junit.jupiter.api.DisplayName;
@@ -9,10 +6,6 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-05
- */
 @DisplayName("Tests for Template Pattern")
 class TemplateTest {
 

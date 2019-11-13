@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.structural.composite;
 
 import org.junit.jupiter.api.DisplayName;
@@ -11,10 +8,6 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-03
- */
 @DisplayName("Tests for Composite Pattern")
 class CompositeTest {
 

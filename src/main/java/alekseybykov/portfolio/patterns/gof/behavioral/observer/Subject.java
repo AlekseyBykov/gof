@@ -1,15 +1,8 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.behavioral.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-04
- */
 public class Subject {
 
     private List<Observable> subscribers = new ArrayList<>();

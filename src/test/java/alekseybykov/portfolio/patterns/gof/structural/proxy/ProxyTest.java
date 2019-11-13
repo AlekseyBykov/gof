@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.structural.proxy;
 
 import alekseybykov.portfolio.patterns.gof.structural.proxy.custom.ProxyReportGenerator;
@@ -14,10 +11,6 @@ import java.lang.reflect.Proxy;
 import static java.lang.String.format;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-05
- */
 @DisplayName("Tests for Proxy Pattern")
 class ProxyTest {
 

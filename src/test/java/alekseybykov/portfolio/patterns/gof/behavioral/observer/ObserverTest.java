@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.behavioral.observer;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -10,10 +7,6 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-04
- */
 @DisplayName("Tests for Observer Pattern")
 class ObserverTest {
 

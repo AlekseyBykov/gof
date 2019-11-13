@@ -1,16 +1,9 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.behavioral.mediator;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-04
- */
 public class BroadcasterMediator implements Broadcaster {
 
     private List<Participant> participants = new ArrayList<>();

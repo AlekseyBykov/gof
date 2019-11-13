@@ -1,6 +1,3 @@
-//
-// Feel free to use these solutions in your work.
-//
 package alekseybykov.portfolio.patterns.gof.behavioral.chain;
 
 import org.junit.jupiter.api.DisplayName;
@@ -8,10 +5,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-/**
- * @author  aleksey.n.bykov@gmail.com
- * @version 2019-11-03
- */
 @DisplayName("Tests for Chain of responsibility Pattern")
 class ChainOfResponsibilityTest {
 
