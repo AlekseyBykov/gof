@@ -1,10 +1,8 @@
 package alekseybykov.portfolio.patterns.gof.creational.singleton.threadsafe.doublechecked;
 
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
-
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 final class DoubleCheckedSingleton {
+
+    private DoubleCheckedSingleton() {};
 
     private static DoubleCheckedSingleton singleton;
 
