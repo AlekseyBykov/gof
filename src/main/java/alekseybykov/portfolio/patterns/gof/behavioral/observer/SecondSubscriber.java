@@ -3,6 +3,10 @@ package alekseybykov.portfolio.patterns.gof.behavioral.observer;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.11.2019
+ */
 public class SecondSubscriber implements Observable {
 
     private List<String> announces = new ArrayList<>();

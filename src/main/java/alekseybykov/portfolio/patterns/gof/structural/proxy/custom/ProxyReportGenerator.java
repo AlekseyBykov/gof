@@ -4,6 +4,10 @@ import alekseybykov.portfolio.patterns.gof.structural.proxy.PdfReportGenerator;
 
 import static java.lang.String.format;
 
+/**
+ * @author Aleksey Bykov
+ * @since 05.11.2019
+ */
 public class ProxyReportGenerator extends PdfReportGenerator {
 
     @Override

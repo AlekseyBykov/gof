@@ -1,5 +1,9 @@
 package alekseybykov.portfolio.patterns.gof.creational.prototype.shallow;
 
+/**
+ * @author Aleksey Bykov
+ * @since 29.09.2019
+ */
 public abstract class Document implements Cloneable {
 
     private String content;

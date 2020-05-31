@@ -3,6 +3,10 @@ package alekseybykov.portfolio.patterns.gof.behavioral.template;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+/**
+ * @author Aleksey Bykov
+ * @since 05.11.2019
+ */
 public abstract class ReportTemplate {
 
     private Set<String> report = new LinkedHashSet<>();

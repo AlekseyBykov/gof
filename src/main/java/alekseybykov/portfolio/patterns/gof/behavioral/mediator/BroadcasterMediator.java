@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.11.2019
+ */
 public class BroadcasterMediator implements Broadcaster {
 
     private List<Participant> participants = new ArrayList<>();

@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.11.2019
+ */
 public class Participant {
 
     private List<String> receivedMessages;

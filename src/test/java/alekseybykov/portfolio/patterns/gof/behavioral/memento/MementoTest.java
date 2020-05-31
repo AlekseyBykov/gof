@@ -8,6 +8,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.11.2019
+ */
 @DisplayName("Tests for Memento Pattern")
 class MementoTest {
 

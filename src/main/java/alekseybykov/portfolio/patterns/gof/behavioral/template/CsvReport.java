@@ -1,5 +1,9 @@
 package alekseybykov.portfolio.patterns.gof.behavioral.template;
 
+/**
+ * @author Aleksey Bykov
+ * @since 05.11.2019
+ */
 public class CsvReport extends ReportTemplate {
 
     @Override

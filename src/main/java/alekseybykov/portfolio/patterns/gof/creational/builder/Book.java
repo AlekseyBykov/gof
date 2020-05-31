@@ -1,5 +1,9 @@
 package alekseybykov.portfolio.patterns.gof.creational.builder;
 
+/**
+ * @author Aleksey Bykov
+ * @since 03.11.2019
+ */
 public class Book {
     private String isbn;
     private String title;

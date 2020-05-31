@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 03.11.2019
+ */
 @DisplayName("Tests for Chain of responsibility Pattern")
 class ChainOfResponsibilityTest {
 

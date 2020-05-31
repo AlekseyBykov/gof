@@ -11,6 +11,10 @@ import java.lang.reflect.Proxy;
 import static java.lang.String.format;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 03.11.2019
+ */
 @DisplayName("Tests for Proxy Pattern")
 class ProxyTest {
 

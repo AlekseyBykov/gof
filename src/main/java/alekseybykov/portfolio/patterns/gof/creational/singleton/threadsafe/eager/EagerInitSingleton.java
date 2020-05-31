@@ -1,5 +1,9 @@
 package alekseybykov.portfolio.patterns.gof.creational.singleton.threadsafe.eager;
 
+/**
+ * @author Aleksey Bykov
+ * @since 29.09.2019
+ */
 final class EagerInitSingleton {
 
     static int numberOfInstances = 0;

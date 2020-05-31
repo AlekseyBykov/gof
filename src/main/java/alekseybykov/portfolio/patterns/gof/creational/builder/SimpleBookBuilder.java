@@ -6,6 +6,9 @@ package alekseybykov.portfolio.patterns.gof.creational.builder;
  * {@link java.lang.StringBuilder#append(Object)
  *  @link java.lang.StringBuffer#append(Object)
  * }
+ *
+ * @author Aleksey Bykov
+ * @since 03.11.2019
  */
 public class SimpleBookBuilder implements BookBuilder {
 

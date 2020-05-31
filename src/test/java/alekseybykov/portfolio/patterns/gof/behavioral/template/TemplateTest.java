@@ -6,6 +6,10 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+/**
+ * @author Aleksey Bykov
+ * @since 05.11.2019
+ */
 @DisplayName("Tests for Template Pattern")
 class TemplateTest {
 

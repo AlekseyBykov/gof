@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * @author Aleksey Bykov
+ * @since 29.09.2019
+ */
 @DisplayName("Tests for Singleton Pattern implementation with eager loading")
 class EagerInitSingletonTest {
 

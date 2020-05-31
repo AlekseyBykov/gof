@@ -1,5 +1,9 @@
 package alekseybykov.portfolio.patterns.gof.behavioral.memento;
 
+/**
+ * @author Aleksey Bykov
+ * @since 04.11.2019
+ */
 public class EntityWithState {
 
     private String state;

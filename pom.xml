@@ -24,6 +24,13 @@
     <description>Various examples of Java Design Patterns.</description>
     <url>https://alekseybykov.github.io</url>
 
+    <developers>
+        <developer>
+            <name>Aleksey Bykov</name>
+            <email>aleksey.n.bykov@gmail.com</email>
+        </developer>
+    </developers>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>

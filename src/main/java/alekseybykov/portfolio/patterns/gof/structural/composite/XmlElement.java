@@ -3,6 +3,10 @@ package alekseybykov.portfolio.patterns.gof.structural.composite;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+/**
+ * @author Aleksey Bykov
+ * @since 03.11.2019
+ */
 public class XmlElement {
 
     private String name;
